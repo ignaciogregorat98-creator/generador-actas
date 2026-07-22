@@ -85,7 +85,7 @@ No habiendo más asuntos que tratar, siendo las ... horas, se da por finalizada 
       seleccionados.forEach((id, i) => {
         textosEditados[id] = textos[id].replace("NUMPUNTO", `${i+1}°`);
       });
-      const resp = await fetch("http://localhost:3001/generar", {
+      const resp = await fetch("https://generador-actas-z7zf.onrender.com/generar", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...datos, puntos: seleccionados, textosEditados }),
