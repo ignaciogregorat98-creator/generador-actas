@@ -1,0 +1,16 @@
+19/07
+No es "designación de gerente" en orden del día, es designación de autoridades
+No es estados contables sino balances (ver también como designa ese punto del orden del día)
+
+
+
+Cada vez que abrás la computadora y quieras usar el generador, tenés que arrancar los dos servidores manualmente. El procedimiento es:
+Paso 1 — Abrí VS Code y abrí la carpeta App actas.
+Paso 2 — Abrí una terminal, escribí esto y Enter:
+cd backend
+node index.js
+Paso 3 — Abrí una segunda terminal, escribí esto y Enter:
+cd frontend
+npm start
+Paso 4 — Entrá a http://localhost:3000 en el navegador.
+Te recomiendo que anotes ese procedimiento en algún lado hasta que lo tengas incorporado.
